@@ -23,7 +23,7 @@ end
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
-  gem "nokogiri", "~> 1.19.1"  
+  gem "nokogiri", "~> 1.19.3"  
 end
 
 # Performance-booster for watching directories on Windows
